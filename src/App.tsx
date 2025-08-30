@@ -1,14 +1,7 @@
-import { ModalDemo } from "./ModalDemo";
-import { TooltipDemo } from "./TooltipDemo";
-import "./App.css";
+import { HomePage } from "./homepage/HomePage";
 
 function App() {
-  return (
-    <div className="app">
-      <ModalDemo />
-      {/* <TooltipDemo /> */}
-    </div>
-  );
+  return <HomePage />;
 }
 
 export default App;
