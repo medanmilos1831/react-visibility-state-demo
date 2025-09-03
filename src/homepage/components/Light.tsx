@@ -14,7 +14,7 @@ const Light: React.FC<LightProps> = ({
   label: string;
 }) => {
   const modalWatcher = useWatch(value, (state) => {
-    return state.state;
+    return state;
   });
 
   // console.log(`Light ${value}:`, modalWatcher, typeof modalWatcher);
