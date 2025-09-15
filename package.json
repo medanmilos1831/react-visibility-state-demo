@@ -14,10 +14,13 @@
     "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^7.3.1",
     "@mui/material": "^7.3.1",
-    "@scoped-observer/react-state-machine": "^3.0.8",
+    "@scoped-observer/core": "^2.3.5",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "antd": "^4.24.16",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-visibility-state": "^1.1.1"
+    "react-syntax-highlighter": "^15.6.6",
+    "react-visibility-state": "^2.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",
