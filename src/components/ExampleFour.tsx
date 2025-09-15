@@ -1,4 +1,4 @@
-import { Button, Popover, Space, Tag } from "antd";
+import { Button, Popover } from "antd";
 
 import { useVisibility, useVisibilityHandler } from "react-visibility-state";
 import { CodeHighlighter } from "./CodeHighlighter";
