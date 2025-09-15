@@ -5,7 +5,10 @@ const { Title, Paragraph } = Typography;
 
 export const HomePage = () => {
   return (
-    <div className="homepage-container" style={{ padding: "20px 15px", maxWidth: "1400px", margin: "0 auto" }}>
+    <div
+      className="homepage-container"
+      style={{ padding: "20px 15px", margin: "0 2rem" }}
+    >
       <div style={{ textAlign: "center", marginBottom: "40px" }}>
         <Title level={1}>React Visibility State Demo</Title>
         <Paragraph
